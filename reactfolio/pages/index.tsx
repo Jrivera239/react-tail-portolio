@@ -1,5 +1,7 @@
 import Head from 'next/head';
 import {BsFileRichtextFill} from "react-icons/bs";
+import {AiFillTwitterCircle, AiFillLinkedin,} from "react-icons/ai"
+import mypic from "../public";
 
 export default function Home() {
   return (
@@ -10,8 +12,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='bg-red-500 px-5'> 
-<section className='bg-red-500 h-screen'>
+      <main className='bg-red-300 px-5'> 
+<section className='bg-red-200 h-screen'>
   <nav className='py-10 mb-12 flex justify-between'>
     <h1 className='text-xl'>Hello</h1>
     <ul className='flex items-center'>
@@ -20,7 +22,20 @@ export default function Home() {
     <li><a className='bg-gradient-to-r from-red-700 to-red-300 rounded-sm px-2 py-1' href='#'>Resume</a></li>
     </ul>
   </nav>
-  
+  <div className='text-center p-10'>
+  <h2 className='text-5xl py-2 text-red 700'>Joel Rivera</h2>
+  <h3 className='text-2xl py-2'> Fullstack Developer </h3>
+  <p className='text-md py-5 leading-8 text-gray-800'> Hello, im a fullstack Web Developer front and back end who designs pages online.</p>
+    <div className='text-4xl flex justify-center gap-12 py-3 text-gray-800'>
+    <AiFillLinkedin />
+    <AiFillTwitterCircle />
+    </div>
+    <div className=''>
+    <Image src={mypic.JPG} />
+
+    </div>
+
+    </div>
 
 </section>
 
