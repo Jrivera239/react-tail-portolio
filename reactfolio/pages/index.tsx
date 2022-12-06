@@ -1,7 +1,9 @@
 import Head from 'next/head';
 import {BsFileRichtextFill} from "react-icons/bs";
-import {AiFillTwitterCircle, AiFillLinkedin,} from "react-icons/ai";
+import {AiFillLinkedin} from "react-icons/ai";
 import {useState } from "react";
+import globals from "../styles/global.css"
+
 
 
 export default function Home() {
@@ -14,27 +16,32 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='bg-gradient-to-r from-red-200 to-red-200 px-5 dark:bg-gray-900' > 
+      <main className='bg-red-200 px-5 dark:bg-gray-900' > 
 <section className='bg-red-200 h-screen dark:bg-gray-900'>
   <nav className='py-10 mb-12 flex justify-between'>
     <h1 className='text-xl'></h1>
     <ul className='flex items-center'>
     <li><BsFileRichtextFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-3xl dark:text-white'/>
     </li>
-    <p className='font-bold px-16 dark:text-white'>
+    <p className='click font-bold px-20 text-justify dark:text-white'>
       Click Left Icon for DarkMode 
     </p>
  
-    <li><a className='dark:text-white bg-gradient-to-r from-red-700 to-red-300 rounded-sm px-2 py-1 dark:bg-white font-bold' href='#'>Resume</a></li>
+    <li><a className='dark:text-white hover:from-slate-400 bg-gradient-to-r from-red-700 to-red-300 rounded-sm px-2 py-1 dark:bg-white font-bold' href='https://www.linkedin.com/resume-builder/urn:li:fsd_memberResume:37894332/?edit=true'>Resume</a></li>
+    <li><a className='dark:text-white hover:from-slate-400 bg-red-300  px-2 py-1 font-bold' href='https://github.com/Jrivera239'>GitHub</a></li>
+    <li><a className='dark:text-white bg-gradient-to-r from-red-300 to-red-700 hover:from-slate-400 rounded-sm px-2 py-1 dark:bg-white font-bold' href='https://github.com/Jrivera239/Jrivera239/blob/main/readme.md'>Contact</a></li>
     </ul>
   </nav>
+  <div>
+    
+  </div>
   <div className='text-center p-10'>
   <h2 className='text-5xl py-2 text-red-700 dark:bg-gray-900 rounded-sm font-bold'>Joel Rivera</h2>
   <h3 className='dark:text-white text-2xl py-2 dark:bg-gradient-to-t from-gray-600 font-bold' > Fullstack Developer </h3>
-  <p className='dark:text-white text-md py-5 leading-8 dark:bg-gradient-to-b from-gray-600 text-center font-bold'> Hello, im a fullstack Web Developer front and back end who designs pages online.</p>
+  <p className='dark:text-white text-md py-5 leading-8 dark:bg-gradient-to-b from-gray-600 text-center font-bold'> I'm a fullstack web Developer who is recently out of UCF Bootcamp and still studying to enhance my developer skills and portfolio. I'm currently educated in multiple languages such as HTML, CSS, Javascript, React, and others. Still sharping my tools and skills but hungry to learn and seeking for opportunities of all kinds including interns. Accepting any entry positions or level 1 in the field and absolutely driven for success.</p>
     <div className='text-4xl flex justify-center gap-12 py-3 text-red-700'>
     <AiFillLinkedin />
-    <AiFillTwitterCircle />
+
     </div>
     <div className='relative mx-auto bg-gradient-to-b from-red-700 rounded-full w-60 h-60  mt-16' >
    
@@ -47,10 +54,10 @@ export default function Home() {
 
 <section>
   <div>
-    <h3 className='dark:text-white text-3xl py-1 dark:bg-gray-900 text-center font-bold'>
+    <h3 className='dark:text-white text-3xl py-5 dark:bg-gray-900 text-center font-bold'>
       Portofolio
     </h3>
-    <p className='dark:text-white text-md py-2 leading-8 dark:bg-gray-900 text-center '>
+    <p className='dark:text-white text-md py-5 leading-8 dark:bg-gray-900 text-center '>
       List of projects here
     </p>
   </div>
