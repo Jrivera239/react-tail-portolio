@@ -1,3 +1,17 @@
+## Screenshot 
+## RegularMode
+![localhost_3000_ (3)](https://user-images.githubusercontent.com/106676739/206236335-910a462f-cf82-4d66-a69e-388d9ad4e58e.png)
+
+
+## DarkMode
+![localhost_3000_ (2)](https://user-images.githubusercontent.com/106676739/206236348-c557a1b7-afd6-489e-a3f9-5f51e90d7fa8.png)
+
+## Short Demo Video
+
+[Untitled_ Dec 7, 2022 11_36 AM.webm](https://user-images.githubusercontent.com/106676739/206237483-4591fad1-154b-4281-a69f-6b45267fd713.webm)
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
